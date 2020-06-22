@@ -181,6 +181,7 @@ header nav a:hover {
 .opener .headline h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
+  text-align: center;
   margin: 3% 0;
 }
 .opener .headline p {
@@ -206,26 +207,64 @@ header nav a:hover {
   height: 350px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .anywhere .gps-phone {
   width: 33%;
 }
 .anywhere .gps-phone img {
   width: 100%;
+  border-radius: 10px;
 }
 .anywhere .anywhere-detail {
   height: 320px;
-  width: 67%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.anywhere .anywhere-detail img {
+  width: 15%;
+}
 .anywhere .anywhere-detail h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
+  margin: 15px 0;
 }
 .anywhere .anywhere-detail h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
+}
+.virtual {
+  display: flex;
+  height: 400px;
+}
+.virtual .virtual-detail {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.virtual .virtual-detail img {
+  width: 30%;
+}
+.virtual .virtual-detail h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 15px 0;
+}
+.virtual .virtual-detail p {
+  font-family: 'Montserrat', sans-serif;
+}
+.virtual .virtual-img {
+  width: 60%;
+  margin: 0 auto;
+}
+.virtual .virtual-img img {
+  width: 100%;
+  border-radius: 10px;
 }
