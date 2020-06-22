@@ -208,6 +208,7 @@ header nav a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #B7B7A4;
 }
 .anywhere .gps-phone {
   width: 33%;
@@ -239,6 +240,8 @@ header nav a:hover {
 .virtual {
   display: flex;
   height: 400px;
+  margin: 15px 0;
+  justify-content: space-evenly;
 }
 .virtual .virtual-detail {
   width: 35%;
@@ -247,6 +250,7 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   padding: 15px;
+  margin-left: 9%;
 }
 .virtual .virtual-detail img {
   width: 30%;
@@ -261,10 +265,46 @@ header nav a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 .virtual .virtual-img {
-  width: 60%;
+  width: 43%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .virtual .virtual-img img {
   width: 100%;
   border-radius: 10px;
+}
+.lifestyle {
+  display: flex;
+  justify-content: space-evenly;
+}
+.lifestyle .lifestyle-img {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lifestyle .lifestyle-img img {
+  width: 60%;
+  border-radius: 10px;
+}
+.lifestyle .lifestyle-detail {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 7%;
+}
+.lifestyle .lifestyle-detail img {
+  width: 30%;
+}
+.lifestyle .lifestyle-detail h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  margin: 15px 0;
+}
+.lifestyle .lifestyle-detail p {
+  font-family: 'Montserrat', sans-serif;
 }

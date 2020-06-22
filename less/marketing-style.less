@@ -45,6 +45,7 @@ header {
     height: 600px;
     display: flex;
     justify-content: space-around;
+    // background-color: @linen;
 
     .headline {
         width: 30%;
@@ -96,6 +97,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: @ashgrey;
 
     .gps-phone {
         width: 33%;
@@ -136,6 +138,8 @@ header {
 .virtual {
     display: flex;
     height: 400px;
+    margin: 15px 0;
+    justify-content: space-evenly;
 
     .virtual-detail {
         width: 35%;
@@ -144,6 +148,7 @@ header {
         justify-content: center;
         align-items: center;
         padding: 15px;
+        margin-left: 9%;
 
         img {
             width: 30%;
@@ -161,12 +166,55 @@ header {
     }
 
     .virtual-img {
-        width: 60%;
+        width: 43%;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         img {
             width: 100%;
             border-radius: 10px;
         }
     }
+}
+
+// lifestyle 
+.lifestyle {
+    display: flex;
+    justify-content: space-evenly;
+
+    .lifestyle-img {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 60%;
+            border-radius: 10px;
+        }
+    }
+
+    .lifestyle-detail {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 7%;
+
+        img {
+            width: 30%;
+        }
+        h2 {
+            font-family: @font;
+            font-size: 1.6rem;
+            margin: 15px 0;
+        }
+        p {
+            font-family: @font;
+        }
+    }
+
 }
