@@ -130,7 +130,29 @@ header {
   display: flex;
   justify-content: space-between;
   height: 65px;
+  background-color: #DDBEA9;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 header h1 {
   font-family: 'Montserrat', sans-serif;
+  margin: auto 0;
+  font-size: 2rem;
+  padding: 0 2%;
+  font-weight: bold;
+}
+header nav {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+header nav a a:hover {
+  color: #FFF1E6;
 }
