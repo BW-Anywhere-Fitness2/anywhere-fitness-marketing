@@ -153,6 +153,45 @@ header nav a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
-header nav a a:hover {
-  color: #FFF1E6;
+.main {
+  margin-top: 65px;
+}
+.opener {
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+.opener .headline {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.opener .headline img {
+  width: 30%;
+  margin-bottom: 3%;
+}
+.opener .headline h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  margin: 3% 0;
+}
+.opener .headline p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 3% 0;
+}
+.opener .headline a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+.opener .main-img {
+  width: 55%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.opener .main-img img {
+  width: 100%;
 }
