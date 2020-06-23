@@ -35,6 +35,55 @@ header {
 }
 
 // To keep everything starting below static header 
-.main {
+.team {
     margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    .member {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        margin: 15px;
+
+        img {
+            height: 200px;
+            width: 200px;
+        }
+        h2 {
+            font-family: @font;
+            font-size: 1.6rem;
+        }
+        p {
+            font-family: @font;
+        }
+    }
+
+}
+
+// footer 
+footer {
+    background-color: @ashgrey;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: @font;
+        color: black;
+    }
+
+    a:hover {
+        color: @linen;
+    }
 }
