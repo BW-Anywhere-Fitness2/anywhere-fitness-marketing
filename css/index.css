@@ -89,7 +89,6 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -477,6 +476,11 @@ header nav a:hover {
   padding: 30px 0;
   background-color: #DDBEA9;
 }
+@media (max-width: 500px) {
+  .review {
+    align-items: center;
+  }
+}
 .review .customer {
   width: 30%;
   display: flex;
@@ -492,22 +496,50 @@ header nav a:hover {
 .review .customer p {
   font-family: 'Montserrat', sans-serif;
 }
+@media (max-width: 500px) {
+  .review .customer p {
+    text-align: center;
+  }
+}
 .review .rating {
   width: 30%;
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .review .rating {
+    width: 40%;
+    height: 80%;
+  }
+}
 .review .rating img {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .review .rating img {
+    width: 100%;
+  }
 }
 .review .customer-profile {
   width: 155px;
   display: flex;
   margin-right: 15px;
 }
+@media (max-width: 500px) {
+  .review .customer-profile {
+    justify-content: center;
+    align-items: center;
+  }
+}
 .review .customer-profile img {
   width: 150px;
   border-radius: 80px;
+}
+@media (max-width: 500px) {
+  .review .customer-profile img {
+    width: 150px;
+    height: 150px;
+  }
 }
 footer {
   background-color: #B7B7A4;

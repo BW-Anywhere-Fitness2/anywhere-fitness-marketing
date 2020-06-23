@@ -359,10 +359,13 @@ header {
 .review {
     display: flex;
     justify-content: center;
-    // width: 90%;
     margin: 0 auto;
     padding: 30px 0;
     background-color: @sand;
+
+    @media (max-width: 500px) {
+        align-items: center;       
+    }
 
     .customer {
         width: 30%;
@@ -380,6 +383,9 @@ header {
         p {
             font-family: @font;
 
+            @media (max-width: 500px) {
+                text-align: center;
+            }
         }
     }
 
@@ -388,9 +394,17 @@ header {
         display: flex;
         justify-content: center;
 
+        @media (max-width: 500px) {
+            width: 40%;
+            height: 80%;
+        }
+
         img {
             width: 50%;
 
+            @media (max-width: 500px) {
+                width: 100%;
+            }
         }
     }
 
@@ -398,11 +412,20 @@ header {
         width: 155px;
         display: flex;
         margin-right: 15px;
-        // justify-content: center;
+
+        @media (max-width: 500px) {
+            justify-content: center;   
+            align-items: center;
+        }
 
         img {
             width: 150px;
             border-radius: 80px;
+
+            @media (max-width: 500px) {
+                width: 150px;
+                height: 150px;
+            }
         }
     }
 }
