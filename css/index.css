@@ -278,6 +278,7 @@ header nav a:hover {
 .lifestyle {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 15px;
 }
 .lifestyle .lifestyle-img {
   width: 55%;
@@ -310,28 +311,41 @@ header nav a:hover {
 }
 .review {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  width: 90%;
+  margin: 30px auto;
 }
 .review .customer {
   width: 30%;
   display: flex;
   justify-content: center;
-  align-items: center flex-direction;
+  align-items: center;
+  flex-direction: column;
 }
 .review .customer h3 {
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
 }
 .review .customer p {
   font-family: 'Montserrat', sans-serif;
 }
 .review .rating {
   width: 30%;
+  display: flex;
+  justify-content: center;
 }
 .review .rating img {
   width: 50%;
 }
 .review .customer-profile {
-  width: 30%;
+  width: 155px;
+  display: flex;
+  margin-right: 15px;
+}
+.review .customer-profile img {
+  width: 150px;
+  border-radius: 80px;
 }
 footer {
   background-color: #B7B7A4;
