@@ -129,6 +129,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+p {
+  line-height: 1.3;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -529,6 +532,7 @@ header nav a:hover {
   .review .customer-profile {
     justify-content: center;
     align-items: center;
+    margin-left: 15px;
   }
 }
 .review .customer-profile img {
