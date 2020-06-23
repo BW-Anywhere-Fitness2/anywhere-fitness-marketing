@@ -24,9 +24,9 @@ header {
             color: black;
             text-decoration: none;
             font-family: @font;
-            height: 100%;
             width: 30%;
             text-align: center;
+            padding: 23px 0;
         }
 
         a:hover {
@@ -45,7 +45,7 @@ header {
     height: 600px;
     display: flex;
     justify-content: space-around;
-    // background-color: @linen;
+
 
     .headline {
         width: 30%;
@@ -75,6 +75,16 @@ header {
             text-decoration: none;
             font-family: @font;
             color: black;
+            box-sizing: border-box;
+            width: 100px;
+            height: 40px;
+            padding: 10px 12px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            background-color: @browngrey
         }
     }
 
@@ -183,7 +193,7 @@ header {
 .lifestyle {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
 
     .lifestyle-img {
         width: 55%;
@@ -224,8 +234,10 @@ header {
 .review {
     display: flex;
     justify-content: center;
-    width: 90%;
-    margin: 30px auto;
+    // width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: @sand;
 
     .customer {
         width: 30%;
