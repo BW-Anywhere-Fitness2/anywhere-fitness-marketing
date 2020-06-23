@@ -138,18 +138,39 @@ header {
   top: 0;
   width: 100%;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    position: static;
+  }
+}
 header h1 {
   font-family: 'Montserrat', sans-serif;
   margin: auto 0;
   font-size: 2rem;
   padding: 0 2%;
   font-weight: bold;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 3rem;
+  }
 }
 header nav {
   width: 25%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 header nav a {
   color: black;
@@ -159,16 +180,32 @@ header nav a {
   text-align: center;
   padding: 23px 0;
 }
+@media (max-width: 500px) {
+  header nav a {
+    width: 100%;
+    background-color: #B7B7A4;
+  }
+}
 header nav a:hover {
   background-color: #EDDCD2;
 }
 .main {
   margin-top: 65px;
 }
+@media (max-width: 500px) {
+  .main {
+    margin-top: 0;
+  }
+}
 .opener {
   height: 600px;
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .opener {
+    flex-flow: column;
+  }
 }
 .opener .headline {
   width: 30%;
@@ -176,6 +213,12 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .opener .headline {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 .opener .headline img {
   width: 30%;
@@ -190,6 +233,11 @@ header nav a:hover {
 .opener .headline p {
   font-family: 'Montserrat', sans-serif;
   margin: 3% 0;
+}
+@media (max-width: 500px) {
+  .opener .headline p {
+    text-align: center;
+  }
 }
 .opener .headline a {
   text-decoration: none;
@@ -211,6 +259,12 @@ header nav a:hover {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .opener .main-img {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
 .opener .main-img img {
   width: 100%;
   border-radius: 10px;
@@ -221,6 +275,11 @@ header nav a:hover {
   align-items: center;
   justify-content: space-around;
   background-color: #B7B7A4;
+}
+@media (max-width: 500px) {
+  .anywhere {
+    flex-direction: column;
+  }
 }
 .anywhere .gps-phone {
   width: 33%;
@@ -254,6 +313,11 @@ header nav a:hover {
   height: 400px;
   margin: 15px 0;
   justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .virtual {
+    flex-direction: column;
+  }
 }
 .virtual .virtual-detail {
   width: 35%;
@@ -291,6 +355,11 @@ header nav a:hover {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 60px;
+}
+@media (max-width: 500px) {
+  .lifestyle {
+    flex-direction: column;
+  }
 }
 .lifestyle .lifestyle-img {
   width: 55%;
@@ -372,6 +441,11 @@ footer a {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   color: black;
+}
+@media (max-width: 500px) {
+  footer a {
+    font-size: 1.6rem;
+  }
 }
 footer a:hover {
   color: #FFF1E6;
