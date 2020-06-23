@@ -308,3 +308,44 @@ header nav a:hover {
 .lifestyle .lifestyle-detail p {
   font-family: 'Montserrat', sans-serif;
 }
+.review {
+  display: flex;
+  justify-content: space-around;
+}
+.review .customer {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center flex-direction;
+}
+.review .customer h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.review .customer p {
+  font-family: 'Montserrat', sans-serif;
+}
+.review .rating {
+  width: 30%;
+}
+.review .rating img {
+  width: 50%;
+}
+.review .customer-profile {
+  width: 30%;
+}
+footer {
+  background-color: #B7B7A4;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+footer a:hover {
+  color: #FFF1E6;
+}

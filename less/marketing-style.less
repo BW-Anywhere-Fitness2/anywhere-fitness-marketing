@@ -218,3 +218,59 @@ header {
     }
 
 }
+
+// customer review
+.review {
+    display: flex;
+    justify-content: space-around;
+
+    .customer {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center
+        flex-direction: column;
+
+        h3 {
+            font-family: @font;
+        }
+        p {
+            font-family: @font;
+        }
+    }
+
+    .rating {
+        width: 30%;
+        margin: 0 auto;
+
+        img {
+            width: 50%;
+
+        }
+    }
+
+    .customer-profile {
+        width: 30%;
+    }
+}
+
+
+// footer 
+footer {
+    background-color: @ashgrey;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: @font;
+        color: black;
+    }
+
+    a:hover {
+        color: @linen;
+    }
+}
