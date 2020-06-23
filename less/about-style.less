@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    background-color: @sand;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    h1 {
+        font-family: @font;
+        margin: auto 0;
+        font-size: 2rem;
+        padding: 0 2%;
+        font-weight: bold;
+    }
+    nav {
+        width: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-family: @font;
+            width: 30%;
+            text-align: center;
+            padding: 23px 0;
+        }
+
+        a:hover {
+            background-color: @browngrey;
+        }
+    }
+}
+
+// To keep everything starting below static header 
+.main {
+    margin-top: 65px;
+}
