@@ -6,18 +6,36 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
     h1 {
         font-family: @font;
         margin: auto 0;
         font-size: 2rem;
         padding: 0 2%;
         font-weight: bold;
+
+        @media (max-width: 500px) {
+            font-size: 3rem;
+        }
     }
     nav {
         width: 25%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+            width: 100%;
+            position: static;
+        }
 
         a {
             color: black;
@@ -26,6 +44,11 @@ header {
             width: 30%;
             text-align: center;
             padding: 23px 0;
+            
+            @media (max-width: 500px) {
+                width: 100%;
+                background-color: @ashgrey;
+            }
         }
 
         a:hover {
@@ -40,6 +63,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media (max-width: 500px) {
+        margin-top: 300px;
+    }
 }
 
 .team {
@@ -81,6 +108,10 @@ footer {
         font-size: 2rem;
         font-family: @font;
         color: black;
+
+        @media (max-width: 500px) {
+            font-size: 1.6rem;
+        }
     }
 
     a:hover {

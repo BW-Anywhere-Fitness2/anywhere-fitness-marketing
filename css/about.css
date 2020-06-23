@@ -89,6 +89,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -138,6 +139,14 @@ header {
   top: 0;
   width: 100%;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+}
 header h1 {
   font-family: 'Montserrat', sans-serif;
   margin: auto 0;
@@ -145,11 +154,23 @@ header h1 {
   padding: 0 2%;
   font-weight: bold;
 }
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
 header nav {
   width: 25%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    width: 100%;
+    position: static;
+  }
 }
 header nav a {
   color: black;
@@ -159,6 +180,12 @@ header nav a {
   text-align: center;
   padding: 23px 0;
 }
+@media (max-width: 500px) {
+  header nav a {
+    width: 100%;
+    background-color: #B7B7A4;
+  }
+}
 header nav a:hover {
   background-color: #EDDCD2;
 }
@@ -167,6 +194,11 @@ header nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .team {
+    margin-top: 300px;
+  }
 }
 .team .member {
   width: 400px;
@@ -201,6 +233,11 @@ footer a {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   color: black;
+}
+@media (max-width: 500px) {
+  footer a {
+    font-size: 1.6rem;
+  }
 }
 footer a:hover {
   color: #FFF1E6;
