@@ -263,6 +263,7 @@ header nav a:hover {
   .opener .main-img {
     margin: 0 auto;
     width: 80%;
+    margin-bottom: 15px;
   }
 }
 .opener .main-img img {
@@ -278,11 +279,18 @@ header nav a:hover {
 }
 @media (max-width: 500px) {
   .anywhere {
-    flex-direction: column;
+    flex-flow: column-reverse;
+    height: 450px;
   }
 }
 .anywhere .gps-phone {
   width: 33%;
+}
+@media (max-width: 500px) {
+  .anywhere .gps-phone {
+    width: 60%;
+    margin-bottom: 20px;
+  }
 }
 .anywhere .gps-phone img {
   width: 100%;
@@ -299,14 +307,31 @@ header nav a:hover {
 .anywhere .anywhere-detail img {
   width: 15%;
 }
+@media (max-width: 500px) {
+  .anywhere .anywhere-detail img {
+    width: 25%;
+    margin-top: 20px;
+  }
+}
 .anywhere .anywhere-detail h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
   margin: 15px 0;
 }
+@media (max-width: 500px) {
+  .anywhere .anywhere-detail h2 {
+    text-align: center;
+  }
+}
 .anywhere .anywhere-detail h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
+}
+@media (max-width: 500px) {
+  .anywhere .anywhere-detail h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
 .virtual {
   display: flex;
