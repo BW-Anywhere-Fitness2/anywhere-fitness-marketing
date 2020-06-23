@@ -294,7 +294,8 @@ header {
     margin-bottom: 60px;
 
     @media(max-width: 500px){
-        flex-direction: column;
+        flex-flow: column-reverse;
+        align-items: center;
     }
 
     .lifestyle-img {
@@ -302,6 +303,11 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (max-width: 500px) {
+            margin-top: 15px;
+            width: 100%;
+        }
 
         img {
             width: 60%;
@@ -317,16 +323,33 @@ header {
         flex-direction: column;
         margin-right: 7%;
 
+        @media (max-width: 500px) {
+            width: 90%;
+            margin: 0 auto;
+        }
+
         img {
             width: 30%;
+
+            @media (max-width: 500px) {
+                width: 25%;
+            }
         }
         h2 {
             font-family: @font;
             font-size: 1.6rem;
             margin: 15px 0;
+
+            @media (max-width: 500px) {
+                text-align: center;
+            }
         }
         p {
             font-family: @font;
+
+            @media (max-width: 500px) {
+                text-align: center;
+            }
         }
     }
 

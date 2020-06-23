@@ -410,7 +410,8 @@ header nav a:hover {
 }
 @media (max-width: 500px) {
   .lifestyle {
-    flex-direction: column;
+    flex-flow: column-reverse;
+    align-items: center;
   }
 }
 .lifestyle .lifestyle-img {
@@ -418,6 +419,12 @@ header nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .lifestyle .lifestyle-img {
+    margin-top: 15px;
+    width: 100%;
+  }
 }
 .lifestyle .lifestyle-img img {
   width: 60%;
@@ -431,16 +438,37 @@ header nav a:hover {
   flex-direction: column;
   margin-right: 7%;
 }
+@media (max-width: 500px) {
+  .lifestyle .lifestyle-detail {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 .lifestyle .lifestyle-detail img {
   width: 30%;
+}
+@media (max-width: 500px) {
+  .lifestyle .lifestyle-detail img {
+    width: 25%;
+  }
 }
 .lifestyle .lifestyle-detail h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   margin: 15px 0;
 }
+@media (max-width: 500px) {
+  .lifestyle .lifestyle-detail h2 {
+    text-align: center;
+  }
+}
 .lifestyle .lifestyle-detail p {
   font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 500px) {
+  .lifestyle .lifestyle-detail p {
+    text-align: center;
+  }
 }
 .review {
   display: flex;
