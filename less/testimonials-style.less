@@ -14,18 +14,21 @@ header {
         height: 300px;
         position: static;
     }
-
+    
     h1 {
         font-family: @font;
         margin: auto 0;
         font-size: 2rem;
         padding: 0 2%;
         font-weight: bold;
+        text-decoration: none;
 
         @media (max-width: 500px) {
             font-size: 3rem;
         }
     }
+
+
     nav {
         width: 45%;
         display: flex;
@@ -57,59 +60,24 @@ header {
     }
 }
 
-// To keep everything starting below static header 
-.team {
+.content {
     margin-top: 65px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: wrap;
 
     @media (max-width: 500px) {
-        margin-top: 0px;
+        margin-top: 0;
     }
-}
 
-.team {
-    .member {
-        width: 400px;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        border: 1px solid black;
-        margin: 15px;
-
-        a {
-            text-decoration: none;
-            color: black;
-            text-align: center;
-
-            img {
-                height: 200px;
-                width: 200px;
-                border: 1px solid grey;
-            }
-            h2 {
-                font-family: @font;
-                font-size: 1.6rem;
-            }
-            h3 {
-                font-family: @font;
-                font-size: 1.2rem;
-            }
-            p {
-                font-family: @font;
-                margin-top: 15px;
-            }
+    .review {
+        img {
+            width: 100px;
+            height: 100px;
         }
-
-
     }
 
 }
 
-// footer 
 footer {
     background-color: @ashgrey;
     height: 65px;
