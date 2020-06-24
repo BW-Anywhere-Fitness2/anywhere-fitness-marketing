@@ -212,16 +212,27 @@ header nav a:hover {
   border: 1px solid black;
   margin: 15px;
 }
-.team .member img {
+.team .member a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.team .member a img {
   height: 200px;
   width: 200px;
+  border: 1px solid grey;
 }
-.team .member h2 {
+.team .member a h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
 }
-.team .member p {
+.team .member a h3 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+.team .member a p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
 }
 footer {
   background-color: #B7B7A4;
