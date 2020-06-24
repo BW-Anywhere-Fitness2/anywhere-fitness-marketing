@@ -60,26 +60,38 @@ header {
     }
 }
 
-#content {
-    margin-top: 65px;
+.content {
     display: flex;
     flex-flow: wrap;
-    width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 65px;
 
     @media (max-width: 500px) {
         margin-top: 0;
     }
 
+    .review{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px 17px;
+
         img {
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
         }
         h3 {
+            font-size: 1.6rem;
             font-family: @font;
         }
         p {
             font-family: @font;
         }
+    }
+
+
 }
 
 footer {

@@ -193,25 +193,34 @@ header nav a {
 header nav a:hover {
   background-color: #EDDCD2;
 }
-#content {
-  margin-top: 65px;
+.content {
   display: flex;
   flex-flow: wrap;
-  width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 65px;
 }
 @media (max-width: 500px) {
-  #content {
+  .content {
     margin-top: 0;
   }
 }
-#content img {
-  width: 100px;
-  height: 100px;
+.content .review {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px 17px;
 }
-#content h3 {
+.content .review img {
+  width: 200px;
+  height: 200px;
+}
+.content .review h3 {
+  font-size: 1.6rem;
   font-family: 'Montserrat', sans-serif;
 }
-#content p {
+.content .review p {
   font-family: 'Montserrat', sans-serif;
 }
 footer {
