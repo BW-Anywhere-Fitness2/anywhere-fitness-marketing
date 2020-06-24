@@ -60,22 +60,26 @@ header {
     }
 }
 
-.content {
+#content {
     margin-top: 65px;
     display: flex;
     flex-flow: wrap;
+    width: 800px;
 
     @media (max-width: 500px) {
         margin-top: 0;
     }
 
-    .review {
         img {
             width: 100px;
             height: 100px;
         }
-    }
-
+        h3 {
+            font-family: @font;
+        }
+        p {
+            font-family: @font;
+        }
 }
 
 footer {

@@ -193,19 +193,26 @@ header nav a {
 header nav a:hover {
   background-color: #EDDCD2;
 }
-.content {
+#content {
   margin-top: 65px;
   display: flex;
   flex-flow: wrap;
+  width: 800px;
 }
 @media (max-width: 500px) {
-  .content {
+  #content {
     margin-top: 0;
   }
 }
-.content .review img {
+#content img {
   width: 100px;
   height: 100px;
+}
+#content h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+#content p {
+  font-family: 'Montserrat', sans-serif;
 }
 footer {
   background-color: #B7B7A4;

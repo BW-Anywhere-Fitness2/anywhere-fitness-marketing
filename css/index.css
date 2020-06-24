@@ -264,6 +264,13 @@ header nav a:hover {
   margin-bottom: 20px;
   height: 85%;
 }
+@media (max-width: 800px) {
+  .opener .main-img {
+    height: 60%;
+    align-items: center;
+    margin-top: 130px;
+  }
+}
 @media (max-width: 500px) {
   .opener .main-img {
     margin: 0 auto;
@@ -322,19 +329,15 @@ header nav a:hover {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
   margin: 15px 0;
-}
-@media (max-width: 500px) {
-  .anywhere .anywhere-detail h2 {
-    text-align: center;
-  }
+  text-align: center;
 }
 .anywhere .anywhere-detail h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .anywhere .anywhere-detail h3 {
-    text-align: center;
     margin-bottom: 15px;
   }
 }
@@ -434,6 +437,11 @@ header nav a:hover {
   width: 60%;
   border-radius: 10px;
 }
+@media (max-width: 800px) {
+  .lifestyle .lifestyle-img img {
+    width: 80%;
+  }
+}
 .lifestyle .lifestyle-detail {
   width: 35%;
   display: flex;
@@ -460,11 +468,7 @@ header nav a:hover {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   margin: 15px 0;
-}
-@media (max-width: 500px) {
-  .lifestyle .lifestyle-detail h2 {
-    text-align: center;
-  }
+  text-align: center;
 }
 .lifestyle .lifestyle-detail p {
   font-family: 'Montserrat', sans-serif;
@@ -520,6 +524,11 @@ header nav a:hover {
 .review .rating img {
   width: 50%;
 }
+@media (max-width: 800px) {
+  .review .rating img {
+    width: 100%;
+  }
+}
 @media (max-width: 500px) {
   .review .rating img {
     width: 100%;
@@ -529,6 +538,11 @@ header nav a:hover {
   width: 155px;
   display: flex;
   margin-right: 15px;
+}
+@media (max-width: 800px) {
+  .review .customer-profile {
+    width: 180px;
+  }
 }
 @media (max-width: 500px) {
   .review .customer-profile {
