@@ -211,17 +211,22 @@ header nav a:hover {
   align-items: center;
   flex-direction: column;
   margin: 15px 17px;
+  background-color: #B7B7A4;
 }
 .content .review img {
   width: 200px;
   height: 200px;
+  margin-top: 15px;
 }
 .content .review h3 {
   font-size: 1.6rem;
   font-family: 'Montserrat', sans-serif;
+  margin: 15px 0;
 }
 .content .review p {
   font-family: 'Montserrat', sans-serif;
+  margin: 0 15px;
+  margin-bottom: 15px;
 }
 footer {
   background-color: #B7B7A4;
