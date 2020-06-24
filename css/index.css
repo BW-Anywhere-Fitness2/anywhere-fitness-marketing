@@ -279,6 +279,7 @@ header nav a:hover {
   align-items: center;
   justify-content: space-around;
   background-color: #B7B7A4;
+  margin-top: 60px;
 }
 @media (max-width: 500px) {
   .anywhere {
@@ -288,6 +289,8 @@ header nav a:hover {
 }
 .anywhere .gps-phone {
   width: 33%;
+  width: 600px;
+  margin-left: 5%;
 }
 @media (max-width: 500px) {
   .anywhere .gps-phone {
@@ -306,6 +309,8 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .anywhere .anywhere-detail img {
   width: 15%;
@@ -320,6 +325,7 @@ header nav a:hover {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
   margin: 15px 0;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .anywhere .anywhere-detail h2 {
@@ -329,6 +335,7 @@ header nav a:hover {
 .anywhere .anywhere-detail h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .anywhere .anywhere-detail h3 {
