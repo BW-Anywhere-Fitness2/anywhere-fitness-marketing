@@ -352,6 +352,11 @@ header nav a:hover {
   margin: 15px 0;
   justify-content: space-evenly;
 }
+@media (max-width: 800px) {
+  .virtual {
+    height: 500px;
+  }
+}
 @media (max-width: 500px) {
   .virtual {
     flex-direction: column;
