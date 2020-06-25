@@ -67,6 +67,11 @@ header {
     margin: 0 auto;
     margin-top: 65px;
 
+    @media (max-width: 800px) {
+        align-items: center;
+        justify-content: center;
+    }
+
     @media (max-width: 500px) {
         margin-top: 0;
     }
@@ -78,6 +83,19 @@ header {
         flex-direction: column;
         margin: 15px 17px;
         background-color: @ashgrey;
+
+        @media (max-width: 1200px) {
+            width: 25%;
+            margin: 15px auto;
+        }
+
+        @media (max-width: 800px) {
+            width: 40%;
+        }
+
+        @media (max-width: 500px) {
+            width: 90%;
+        }
 
         img {
             width: 200px;
